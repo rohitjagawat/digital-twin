@@ -4,7 +4,7 @@ from pathlib import Path
 from pypdf import PdfReader
 
 BASE_DIR = Path(__file__).resolve().parent
-PDF_PATH = BASE_DIR / "profile.pdf"
+PDF_PATH = BASE_DIR / "Profile.pdf"
 
 reader = PdfReader(str(PDF_PATH))
 
